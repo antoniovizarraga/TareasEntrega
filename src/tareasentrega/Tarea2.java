@@ -47,6 +47,9 @@ public class Tarea2 {
 		// Imprimimos el resultado.
 		System.out.println("\n" + "El valor que le hace falta a " + firstValue +
 		" para ser múltiplo de " + NUM_REFERENCE + " es: " + result);
+		
+		// Cerramos el Scanner.
+		sc.close();
 	}
 
 }
